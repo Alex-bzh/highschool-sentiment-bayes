@@ -1,0 +1,12 @@
+name: bayes-om
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - jupyterlab
+  - jupyterlab-latex
+  - matplotlib
+  - numpy
+  - pandas
+  - python
+  - seaborn
