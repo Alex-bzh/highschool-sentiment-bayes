@@ -100,3 +100,14 @@ log_likelihood_neg = df_neg["w_log_p_neg"].sum()
 
 score_pos = np.log(prior_pos) + log_likelihood_pos
 score_neg = np.log(prior_neg) + log_likelihood_neg
+
+# log-MAP scores
+print(f"POS : {score_pos}, NEG : {score_neg}")
+
+# probs
+scores = np.array([score_pos, score_neg])
+probs = np.exp(scores - np.max(scores))
+probs /= probs.sum()
+
+for label, prob in zip(["pos", "neg"], probs):
+    print(f"{label}: {prob:.4f}")
