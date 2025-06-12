@@ -81,6 +81,21 @@ prior_neg = neg_weighted / (pos_weighted + neg_weighted)
 
 df = pd.read_csv("test/message1.txt", sep="\t")
 
+# smoothing
+pos_sum = df["posWeight"].sum()
+neg_sum = df["negWeight"].sum()
+df["posWeight"] /= pos_sum
+df["negWeight"] /= neg_sum
+
+alpha = 0.1
+
+df["posWeight"] = (df["posWeight"] + alpha) / (1 + alpha)
+df["negWeight"] = (df["negWeight"] + alpha) / (1 + alpha)
+
+# Keep only rows with non-zero conditional probability
+df_pos = df[df["posWeight"] > 0.0].copy()
+df_neg = df[df["negWeight"] > 0.0].copy()
+
 # Keep only rows with non-zero conditional probability
 df_pos = df[df["p_pos"] > 0.0].copy()
 df_neg = df[df["p_neg"] > 0.0].copy()
