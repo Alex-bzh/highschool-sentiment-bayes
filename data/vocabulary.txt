@@ -1,339 +1,285 @@
-lemma	tag	weight	label
-the	DT	0.000	positive
-be	v	0.483	positive
-.	SENT	0.000	positive
-,	,	0.000	positive
-and	CC	0.000	positive
-a	DT	0.000	positive
-it	PP	0.000	positive
-of	IN	0.000	positive
-make	v	0.315	positive
-for	IN	0.000	positive
-with	IN	0.000	positive
-view	n	0.000	positive
-to	TO	0.000	positive
-experience	n	0.000	positive
-an	DT	0.000	positive
-this	DT	0.000	positive
-I	PP	0.000	positive
-from	IN	0.000	positive
-but	CC	0.000	positive
-welcome	v	0.000	positive
-water	n	0.062	positive
-staff	n	0.000	positive
-restaurant	n	0.000	positive
-recommend	v	0.876	positive
-perfect	a	1.252	positive
-peaceful	a	0.500	positive
-nature	n	0.200	positive
-hike	n	0.000	positive
-fascinating	a	1.000	positive
-definitely	r	0.000	positive
-breathtaking	a	0.000	positive
-absolutely	r	1.000	positive
-would	MD	0.000	positive
-worth	a	0.125	positive
-wonderful	a	0.000	positive
-will	MD	0.000	positive
-which	WDT	0.000	positive
-where	WRB	0.000	positive
-we	PP	0.000	positive
-well	r	0.364	positive
-well-preserved	a	0.750	positive
-warm	a	0.037	positive
-walk	n	0.031	positive
-visit	v	0.000	positive
-visit	n	0.000	positive
-very	r	0.125	positive
-upon	IN	0.000	positive
-unforgettable	a	0.000	positive
-truly	r	0.375	positive
-transcend	v	0.000	positive
-tranquil	a	0.000	positive
-tour	n	0.000	positive
-touch	v	0.000	positive
-top	n	0.000	positive
-timeless	a	0.125	positive
-through	IN	0.000	positive
-them	PP	0.000	positive
-that	WDT	0.000	positive
-terribly	r	0.000	positive
-terrace	n	0.000	positive
-surroundings	n	0.062	positive
-sunset	n	0.000	positive
-sun	n	0.042	positive
-stunning	a	0.000	positive
-story	n	0.000	positive
-stay	n	0.000	positive
-spot	n	0.013	positive
-'s	POS	0.000	positive
-splendid	a	0.625	positive
-sound	n	0.000	positive
-soul	n	0.000	positive
-so	r	0.000	positive
-some	DT	0.000	positive
-site	n	0.000	positive
-simply	r	0.250	positive
-sightseeing	n	0.000	positive
-short	a	0.000	positive
-set	v	0.056	positive
-service	n	0.000	positive
-!	SENT	0.000	positive
-sense	n	0.250	positive
-seem	v	0.125	positive
-scenery	n	0.000	positive
-room	n	0.125	positive
-return	v	0.032	positive
-relaxing	a	0.000	positive
-reflect	v	0.281	positive
-real	a	0.000	positive
-profound	a	0.282	positive
-prepare	v	0.000	positive
-power	n	0.042	positive
-poorly	r	0.000	positive
-pleasure	n	0.200	positive
-pleasant	a	0.626	positive
-park	n	0.000	positive
-panoramic	a	0.000	positive
-organization	n	0.000	positive
-on	IN	0.000	positive
-offer	v	0.018	positive
-nothing	r	0.000	positive
-natural	a	0.000	positive
-must-see	n	0.000	positive
-museum	n	0.000	positive
-mountain	n	0.000	positive
-meticulously	r	0.375	positive
-mesmerize	v	0.000	positive
-mere	a	0.125	positive
-masterpiece	n	0.375	positive
-magical	a	0.000	positive
-lover	n	0.042	positive
-look	v	0.075	positive
-lighting	n	0.000	positive
-landscape	n	0.000	positive
-lake	n	0.000	positive
-label	v	0.000	positive
-knowledgeable	a	0.500	positive
-interesting	a	0.375	positive
-insufficient	a	0.000	positive
-in	IN	0.000	positive
-impressive	a	0.125	positive
-impeccable	a	0.000	positive
-ideal	a	0.375	positive
-hue	n	0.125	positive
-hotel	n	0.000	positive
-historical	a	0.000	positive
-highly	r	0.500	positive
-high	a	0.031	positive
-here	r	0.000	positive
-helpful	a	0.250	positive
-have	v	0.000	positive
-hand	n	0.024	positive
-guide	n	0.000	positive
-golden	a	0.125	positive
-fully	r	0.375	positive
-friendly	a	0.125	positive
-fresh	a	0.000	positive
-forest	n	0.000	positive
-food	n	0.000	positive
-exquisite	a	0.250	positive
-exhibit	n	0.000	positive
-exhausting	a	0.250	positive
-evoke	v	0.000	positive
-every	DT	0.000	positive
-even	r	0.042	positive
-escape	n	0.000	positive
-engaging	a	0.000	positive
-enchanting	a	0.000	positive
-element	n	0.000	positive
-during	IN	0.000	positive
-divine	n	0.000	positive
-dining	n	0.000	positive
-dine	v	0.000	positive
-difficult	a	0.000	positive
-delightful	a	0.750	positive
-delicious	a	0.000	positive
-dance	v	0.000	positive
-cuisine	n	0.000	positive
-craft	v	0.000	positive
-cozy	a	0.000	positive
-comfortable	a	0.167	positive
-color	n	0.000	positive
-collection	n	0.000	positive
-climb	n	0.000	positive
-city	n	0.000	positive
-chaotic	a	0.000	positive
-chaos	n	0.000	positive
-challenging	a	0.000	positive
-by	IN	0.000	positive
-bird	n	0.000	positive
-below	r	0.000	positive
-bed	n	0.000	positive
-beauty	n	0.500	positive
-beautiful	a	0.688	positive
-awe	n	0.250	positive
-attentive	a	0.250	positive
-atmosphere	n	0.000	positive
-at	IN	0.000	positive
-artifact	n	0.000	positive
-appreciate	v	0.000	positive
-anyone	n	0.000	positive
-air	n	0.000	positive
-the	DT	0.000	negative
-be	v	0.504	negative
-.	SENT	0.000	negative
-,	,	0.000	negative
-and	CC	0.000	negative
-to	TO	0.000	negative
-we	PP	0.000	negative
-it	PP	0.000	negative
-a	DT	0.000	negative
-with	IN	0.000	negative
-of	IN	0.000	negative
-but	CC	0.000	negative
-make	v	0.189	negative
-hard	a	0.000	negative
-experience	n	0.000	negative
-which	WDT	0.000	negative
-water	n	0.062	negative
-tour	n	0.000	negative
-time	n	0.250	negative
-this	DT	0.000	negative
-site	n	0.000	negative
-service	n	0.000	negative
-rush	v	0.000	negative
-ruin	n	0.000	negative
-room	n	0.250	negative
-restaurant	n	0.000	negative
-n't	r	0.000	negative
-noisy	a	0.000	negative
-leave	v	0.000	negative
-its	PP$	0.000	negative
-I	PP	0.000	negative
-in	IN	0.000	negative
-history	n	0.000	negative
-guide	n	0.000	negative
-from	IN	0.000	negative
-food	n	0.000	negative
-feel	v	0.054	negative
-difficult	a	0.000	negative
-bland	a	0.000	negative
-beach	n	0.000	negative
-about	IN	0.000	negative
-would	MD	0.000	negative
-without	IN	0.000	negative
-wall	n	0.000	negative
-wait	v	0.000	negative
-waiter	n	0.000	negative
-visit	v	0.000	negative
-visit	n	0.000	negative
-vegetation	n	0.000	negative
-unwelcoming	a	0.000	negative
-unsatisfied	a	0.000	negative
-unfriendly	a	0.000	negative
-understand	v	0.100	negative
-truly	r	0.375	negative
-thin	a	0.000	negative
-that	IN/that	0.000	negative
-terribly	r	0.000	negative
-take	v	0.006	negative
-summer	n	0.000	negative
-stunning	a	0.000	negative
-stay	v	0.000	negative
-staff	n	0.000	negative
-spot	n	0.013	negative
-so	r	0.000	negative
-soft	a	0.000	negative
-slow	a	0.000	negative
-sleep	v	0.000	negative
-sign	n	0.031	negative
-significance	n	0.125	negative
-seem	v	0.125	negative
-scatter	v	0.000	negative
-sand	n	0.000	negative
-recommend	v	0.438	negative
-quiet	a	0.000	negative
-preserve	v	0.000	negative
-poor	a	0.000	negative
-place	n	0.025	negative
-pathway	n	0.000	negative
-past	n	0.000	negative
-paradise	n	0.250	negative
-overpriced	a	0.125	negative
-overgrow	v	0.000	negative
-overall	a	0.000	negative
-outdated	a	0.000	negative
-our	PP$	0.000	negative
-not	r	0.000	negative
-neighboring	a	0.000	negative
-neglect	v	0.000	negative
-nearly	r	0.125	negative
-museum	n	0.000	negative
-much	r	0.125	negative
-mediocre	a	0.000	negative
-meal	n	0.000	negative
-majestic	a	0.000	negative
-lovely	a	0.562	negative
-little	a	0.000	negative
-litter	n	0.000	negative
-lighting	n	0.000	negative
-less	r	0.125	negative
-learn	v	0.000	negative
-lack	n	0.000	negative
-know	v	0.110	negative
-informative	a	0.125	negative
-incredibly	r	0.250	negative
-impressive	a	0.125	negative
-impossible	a	0.000	negative
-however	r	0.125	negative
-hotel	n	0.000	negative
-historical	a	0.000	negative
-hear	v	0.000	negative
-have	v	0.000	negative
-golden	a	0.125	negative
-frustrating	a	0.000	negative
-for	IN	0.000	negative
-find	v	0.000	negative
-explore	v	0.042	negative
-expect	v	0.042	negative
-exhibit	n	0.000	negative
-everything	n	0.000	negative
-enjoy	v	0.500	negative
-enjoyable	a	0.000	negative
-do	v	0.000	negative
-disappoint	v	0.000	negative
-disappointment	n	0.000	negative
-disappointingly	r	0.250	negative
-disappointing	a	0.000	negative
-crystal-clear	n	0.000	negative
-crowd	v	0.000	negative
-crowded	a	0.125	negative
-could	MD	0.000	negative
-complete	a	0.375	negative
-comfortably	r	0.000	negative
-clear	a	0.278	negative
-city	n	0.000	negative
-charming	a	0.875	negative
-castle	n	0.000	negative
-captivate	v	0.000	negative
-can	MD	0.000	negative
-by	IN	0.000	negative
-break	v	0.004	negative
-beautifully	r	0.375	negative
-awfully	r	0.000	negative
-away	r	0.000	negative
-atrocious	a	0.000	negative
-atmosphere	n	0.000	negative
-at	IN	0.000	negative
-as	r	0.000	negative
-as	IN	0.000	negative
-around	r	0.016	negative
-architecture	n	0.000	negative
-archaeological	a	0.000	negative
-anyone	n	0.000	negative
-an	DT	0.000	negative
-amount	n	0.000	negative
-admire	v	0.625	negative
-access	n	0.000	negative
-absurd	a	0.375	negative
+lemma	tag	posFreq	posScore	negFreq	negScore	posWeight	negWeight
+!	SENT	1.0	0.0	0.0	0.0	0.0	0.0
+'s	POS	1.0	0.0	0.0	0.0	0.0	0.0
+,	,	19.0	0.0	20.0	0.0	0.0	0.0
+.	SENT	22.0	0.0	22.0	0.0	0.0	0.0
+I	PP	3.0	0.0	2.0	0.0	0.0	0.0
+a	DT	11.0	0.0	6.0	0.0	0.0	0.0
+about	IN	0.0	0.0	2.0	0.0	0.0	0.0
+absolutely	r	2.0	0.5	0.0	0.0	0.5	0.0
+absurd	a	0.0	0.0	1.0	0.0	0.0	0.0
+access	n	0.0	0.0	1.0	0.0	0.0	0.0
+admire	v	0.0	0.0	1.0	0.0	0.0	0.0
+air	n	1.0	0.0	0.0	0.0	0.0	0.0
+amount	n	0.0	0.0	1.0	0.0	0.0	0.0
+an	DT	4.0	0.0	1.0	0.0	0.0	0.0
+and	CC	17.0	0.0	13.0	0.0	0.0	0.0
+anyone	n	1.0	0.0	1.0	0.0	0.0	0.0
+appreciate	v	1.0	0.125	0.0	0.0	0.125	0.0
+archaeological	a	0.0	0.0	1.0	0.0	0.0	0.0
+architecture	n	0.0	0.0	1.0	0.0	0.0	0.0
+around	r	0.0	0.0	1.0	0.0	0.0	0.0
+artifact	n	1.0	0.0	0.0	0.0	0.0	0.0
+as	IN	0.0	0.0	1.0	0.0	0.0	0.0
+as	r	0.0	0.0	1.0	0.0	0.0	0.0
+at	IN	1.0	0.0	1.0	0.0	0.0	0.0
+atmosphere	n	1.0	0.0	1.0	0.0	0.0	0.0
+atrocious	a	0.0	0.0	1.0	0.0	0.0	0.0
+attentive	a	1.0	0.25	0.0	0.0	0.25	0.0
+away	r	0.0	0.0	1.0	0.018	0.0	0.018
+awe	n	1.0	0.5	0.0	0.0	0.5	0.0
+awfully	r	0.0	0.0	1.0	0.0	0.0	0.0
+be	v	23.0	0.042	24.0	0.021	0.020553191489361702	0.010723404255319148
+beach	n	0.0	0.0	2.0	0.0	0.0	0.0
+beautiful	a	1.0	0.688	0.0	0.0	0.688	0.0
+beautifully	r	0.0	0.0	1.0	0.0	0.0	0.0
+beauty	n	1.0	0.5	0.0	0.0	0.5	0.0
+bed	n	1.0	0.0	0.0	0.0	0.0	0.0
+below	r	1.0	0.0	0.0	0.0	0.0	0.0
+bird	n	1.0	0.125	0.0	0.0	0.125	0.0
+bland	a	0.0	0.0	2.0	0.0	0.0	0.0
+break	v	0.0	0.0	1.0	0.035	0.0	0.035
+breathtaking	a	2.0	0.25	0.0	0.0	0.25	0.0
+but	CC	3.0	0.0	4.0	0.0	0.0	0.0
+by	IN	1.0	0.0	1.0	0.0	0.0	0.0
+can	MD	0.0	0.0	1.0	0.0	0.0	0.0
+captivate	v	0.0	0.0	1.0	0.0	0.0	0.0
+castle	n	0.0	0.0	1.0	0.0	0.0	0.0
+challenging	a	1.0	0.125	0.0	0.0	0.125	0.0
+chaos	n	1.0	0.0	0.0	0.0	0.0	0.0
+chaotic	a	1.0	0.0	0.0	0.0	0.0	0.0
+charming	a	0.0	0.0	1.0	0.0	0.0	0.0
+city	n	1.0	0.0	1.0	0.0	0.0	0.0
+clear	a	0.0	0.0	1.0	0.083	0.0	0.083
+climb	n	1.0	0.0	0.0	0.0	0.0	0.0
+collection	n	1.0	0.0	0.0	0.0	0.0	0.0
+color	n	1.0	0.0	0.0	0.0	0.0	0.0
+comfortable	a	1.0	0.292	0.0	0.0	0.292	0.0
+comfortably	r	0.0	0.0	1.0	0.188	0.0	0.188
+complete	a	0.0	0.0	1.0	0.0	0.0	0.0
+could	MD	0.0	0.0	1.0	0.0	0.0	0.0
+cozy	a	1.0	0.0	0.0	0.0	0.0	0.0
+craft	v	1.0	0.0	0.0	0.0	0.0	0.0
+crowd	v	0.0	0.0	1.0	0.0	0.0	0.0
+crowded	a	0.0	0.0	1.0	0.0	0.0	0.0
+crystal-clear	n	0.0	0.0	1.0	0.0	0.0	0.0
+cuisine	n	1.0	0.0	0.0	0.0	0.0	0.0
+dance	v	1.0	0.0	0.0	0.0	0.0	0.0
+definitely	r	2.0	0.0	0.0	0.0	0.0	0.0
+delicious	a	1.0	0.0	0.0	0.0	0.0	0.0
+delightful	a	1.0	0.75	0.0	0.0	0.75	0.0
+difficult	a	1.0	0.0	2.0	0.0	0.0	0.0
+dine	v	1.0	0.0	0.0	0.0	0.0	0.0
+dining	n	1.0	0.0	0.0	0.0	0.0	0.0
+disappoint	v	0.0	0.0	1.0	0.0	0.0	0.0
+disappointing	a	0.0	0.0	1.0	0.0	0.0	0.0
+disappointingly	r	0.0	0.0	1.0	0.0	0.0	0.0
+disappointment	n	0.0	0.0	1.0	0.0	0.0	0.0
+divine	n	1.0	0.0	0.0	0.0	0.0	0.0
+do	v	0.0	0.0	1.0	0.0	0.0	0.0
+during	IN	1.0	0.0	0.0	0.0	0.0	0.0
+element	n	1.0	0.042	0.0	0.0	0.042	0.0
+enchanting	a	1.0	0.0	0.0	0.0	0.0	0.0
+engaging	a	1.0	0.0	0.0	0.0	0.0	0.0
+enjoy	v	0.0	0.0	1.0	0.0	0.0	0.0
+enjoyable	a	0.0	0.0	1.0	0.0	0.0	0.0
+escape	n	1.0	0.125	0.0	0.0	0.125	0.0
+even	r	1.0	0.167	0.0	0.0	0.167	0.0
+every	DT	1.0	0.0	0.0	0.0	0.0	0.0
+everything	n	0.0	0.0	1.0	0.0	0.0	0.0
+evoke	v	1.0	0.0	0.0	0.0	0.0	0.0
+exhausting	a	1.0	0.25	0.0	0.0	0.25	0.0
+exhibit	n	1.0	0.0	1.0	0.0	0.0	0.0
+expect	v	0.0	0.0	1.0	0.083	0.0	0.083
+experience	n	4.0	0.0	3.0	0.0	0.0	0.0
+explore	v	0.0	0.0	1.0	0.0	0.0	0.0
+exquisite	a	1.0	0.438	0.0	0.0	0.438	0.0
+fascinating	a	2.0	0.5	0.0	0.0	0.5	0.0
+feel	v	0.0	0.0	2.0	0.056	0.0	0.056
+find	v	0.0	0.0	1.0	0.021	0.0	0.021
+food	n	1.0	0.0	2.0	0.0	0.0	0.0
+for	IN	5.0	0.0	1.0	0.0	0.0	0.0
+forest	n	1.0	0.0	0.0	0.0	0.0	0.0
+fresh	a	1.0	0.175	0.0	0.0	0.175	0.0
+friendly	a	1.0	0.208	0.0	0.0	0.208	0.0
+from	IN	3.0	0.0	2.0	0.0	0.0	0.0
+frustrating	a	0.0	0.0	1.0	0.375	0.0	0.375
+fully	r	1.0	0.375	0.0	0.0	0.375	0.0
+golden	a	1.0	0.219	1.0	0.094	0.1095	0.047
+guide	n	1.0	0.0	2.0	0.0	0.0	0.0
+hand	n	1.0	0.037	0.0	0.0	0.037	0.0
+hard	a	0.0	0.0	3.0	0.25	0.0	0.25
+have	v	1.0	0.0	1.0	0.143	0.0	0.0715
+hear	v	0.0	0.0	1.0	0.0	0.0	0.0
+helpful	a	1.0	0.25	0.0	0.0	0.25	0.0
+here	r	1.0	0.0	0.0	0.0	0.0	0.0
+high	a	1.0	0.156	0.0	0.0	0.156	0.0
+highly	r	1.0	0.5	0.0	0.0	0.5	0.0
+hike	n	2.0	0.0	0.0	0.0	0.0	0.0
+historical	a	1.0	0.031	1.0	0.031	0.0155	0.0155
+history	n	0.0	0.0	2.0	0.0	0.0	0.0
+hotel	n	1.0	0.0	1.0	0.0	0.0	0.0
+however	r	0.0	0.0	1.0	0.0	0.0	0.0
+hue	n	1.0	0.25	0.0	0.0	0.25	0.0
+ideal	a	1.0	0.375	0.0	0.0	0.375	0.0
+impeccable	a	1.0	0.062	0.0	0.0	0.062	0.0
+impossible	a	0.0	0.0	1.0	0.75	0.0	0.75
+impressive	a	1.0	0.125	1.0	0.0	0.0625	0.0
+in	IN	1.0	0.0	2.0	0.0	0.0	0.0
+incredibly	r	0.0	0.0	1.0	0.0	0.0	0.0
+informative	a	0.0	0.0	1.0	0.0	0.0	0.0
+insufficient	a	1.0	0.125	0.0	0.0	0.125	0.0
+interesting	a	1.0	0.375	0.0	0.0	0.375	0.0
+it	PP	10.0	0.0	6.0	0.0	0.0	0.0
+its	PP$	0.0	0.0	2.0	0.0	0.0	0.0
+know	v	0.0	0.0	1.0	0.031	0.0	0.031
+knowledgeable	a	1.0	0.5	0.0	0.0	0.5	0.0
+label	v	1.0	0.0	0.0	0.0	0.0	0.0
+lack	n	0.0	0.0	1.0	0.0	0.0	0.0
+lake	n	1.0	0.0	0.0	0.0	0.0	0.0
+landscape	n	1.0	0.0	0.0	0.0	0.0	0.0
+learn	v	0.0	0.0	1.0	0.0	0.0	0.0
+leave	v	0.0	0.0	2.0	0.0	0.0	0.0
+less	r	0.0	0.0	1.0	0.0	0.0	0.0
+lighting	n	1.0	0.0	1.0	0.031	0.0	0.0155
+litter	n	0.0	0.0	1.0	0.0	0.0	0.0
+little	a	0.0	0.0	1.0	0.0	0.0	0.0
+look	v	1.0	0.075	0.0	0.0	0.075	0.0
+lovely	a	0.0	0.0	1.0	0.0	0.0	0.0
+lover	n	1.0	0.125	0.0	0.0	0.125	0.0
+magical	a	1.0	0.0	0.0	0.0	0.0	0.0
+majestic	a	0.0	0.0	1.0	0.0	0.0	0.0
+make	v	5.0	0.074	3.0	0.011	0.04625	0.004125
+masterpiece	n	1.0	0.375	0.0	0.0	0.375	0.0
+meal	n	0.0	0.0	1.0	0.0	0.0	0.0
+mediocre	a	0.0	0.0	1.0	0.778	0.0	0.778
+mere	a	1.0	0.25	0.0	0.0	0.25	0.0
+mesmerize	v	1.0	0.0	0.0	0.0	0.0	0.0
+meticulously	r	1.0	0.375	0.0	0.0	0.375	0.0
+mountain	n	1.0	0.0	0.0	0.0	0.0	0.0
+much	r	0.0	0.0	1.0	0.0	0.0	0.0
+museum	n	1.0	0.0	1.0	0.0	0.0	0.0
+must-see	n	1.0	0.0	0.0	0.0	0.0	0.0
+n't	r	0.0	0.0	2.0	0.0	0.0	0.0
+natural	a	1.0	0.167	0.0	0.0	0.167	0.0
+nature	n	2.0	0.1	0.0	0.0	0.1	0.0
+nearly	r	0.0	0.0	1.0	0.0	0.0	0.0
+neglect	v	0.0	0.0	1.0	0.125	0.0	0.125
+neighboring	a	0.0	0.0	1.0	0.0	0.0	0.0
+noisy	a	0.0	0.0	2.0	0.375	0.0	0.375
+not	r	0.0	0.0	1.0	0.625	0.0	0.625
+nothing	r	1.0	0.0	0.0	0.0	0.0	0.0
+of	IN	7.0	0.0	4.0	0.0	0.0	0.0
+offer	v	1.0	0.018	0.0	0.0	0.018	0.0
+on	IN	1.0	0.0	0.0	0.0	0.0	0.0
+organization	n	1.0	0.0	0.0	0.0	0.0	0.0
+our	PP$	0.0	0.0	1.0	0.0	0.0	0.0
+outdated	a	0.0	0.0	1.0	0.0	0.0	0.0
+overall	a	0.0	0.0	1.0	0.0	0.0	0.0
+overgrow	v	0.0	0.0	1.0	0.0	0.0	0.0
+overpriced	a	0.0	0.0	1.0	0.0	0.0	0.0
+panoramic	a	1.0	0.0	0.0	0.0	0.0	0.0
+paradise	n	0.0	0.0	1.0	0.125	0.0	0.125
+park	n	1.0	0.0	0.0	0.0	0.0	0.0
+past	n	0.0	0.0	1.0	0.0	0.0	0.0
+pathway	n	0.0	0.0	1.0	0.125	0.0	0.125
+peaceful	a	2.0	0.25	0.0	0.0	0.25	0.0
+perfect	a	2.0	0.688	0.0	0.0	0.688	0.0
+place	n	0.0	0.0	1.0	0.0	0.0	0.0
+pleasant	a	1.0	0.688	0.0	0.0	0.688	0.0
+pleasure	n	1.0	0.2	0.0	0.0	0.2	0.0
+poor	a	0.0	0.0	1.0	0.375	0.0	0.375
+poorly	r	1.0	0.0	0.0	0.0	0.0	0.0
+power	n	1.0	0.146	0.0	0.0	0.146	0.0
+prepare	v	1.0	0.0	0.0	0.0	0.0	0.0
+preserve	v	0.0	0.0	1.0	0.25	0.0	0.25
+profound	a	1.0	0.344	0.0	0.0	0.344	0.0
+quiet	a	0.0	0.0	1.0	0.375	0.0	0.375
+real	a	1.0	0.062	0.0	0.0	0.062	0.0
+recommend	v	2.0	0.438	1.0	0.0	0.292	0.0
+reflect	v	1.0	0.281	0.0	0.0	0.281	0.0
+relaxing	a	1.0	0.0	0.0	0.0	0.0	0.0
+restaurant	n	2.0	0.0	2.0	0.0	0.0	0.0
+return	v	1.0	0.042	0.0	0.0	0.042	0.0
+room	n	1.0	0.125	2.0	0.0	0.041666666666666664	0.0
+ruin	n	0.0	0.0	2.0	0.062	0.0	0.062
+rush	v	0.0	0.0	2.0	0.05	0.0	0.05
+sand	n	0.0	0.0	1.0	0.083	0.0	0.083
+scatter	v	0.0	0.0	1.0	0.0	0.0	0.0
+scenery	n	1.0	0.0	0.0	0.0	0.0	0.0
+seem	v	1.0	0.156	1.0	0.031	0.078	0.0155
+sense	n	1.0	0.25	0.0	0.0	0.25	0.0
+service	n	1.0	0.0	2.0	0.0	0.0	0.0
+set	v	1.0	0.062	0.0	0.0	0.062	0.0
+short	a	1.0	0.08	0.0	0.0	0.08	0.0
+sightseeing	n	1.0	0.0	0.0	0.0	0.0	0.0
+sign	n	0.0	0.0	1.0	0.031	0.0	0.031
+significance	n	0.0	0.0	1.0	0.125	0.0	0.125
+simply	r	1.0	0.344	0.0	0.0	0.344	0.0
+site	n	1.0	0.0	2.0	0.0	0.0	0.0
+sleep	v	0.0	0.0	1.0	0.0	0.0	0.0
+slow	a	0.0	0.0	1.0	0.062	0.0	0.062
+so	r	1.0	0.0	1.0	0.0	0.0	0.0
+soft	a	0.0	0.0	1.0	0.176	0.0	0.176
+some	DT	1.0	0.0	0.0	0.0	0.0	0.0
+soul	n	1.0	0.0	0.0	0.0	0.0	0.0
+sound	n	1.0	0.0	0.0	0.0	0.0	0.0
+splendid	a	1.0	0.75	0.0	0.0	0.75	0.0
+spot	n	1.0	0.05	1.0	0.037	0.025	0.0185
+staff	n	2.0	0.0	1.0	0.0	0.0	0.0
+stay	n	1.0	0.0	0.0	0.0	0.0	0.0
+stay	v	0.0	0.0	1.0	0.042	0.0	0.042
+story	n	1.0	0.0	0.0	0.0	0.0	0.0
+stunning	a	1.0	0.188	1.0	0.344	0.094	0.172
+summer	n	0.0	0.0	1.0	0.0	0.0	0.0
+sun	n	1.0	0.042	0.0	0.0	0.042	0.0
+sunset	n	1.0	0.0	0.0	0.0	0.0	0.0
+surroundings	n	1.0	0.062	0.0	0.0	0.062	0.0
+take	v	0.0	0.0	1.0	0.033	0.0	0.033
+terrace	n	1.0	0.0	0.0	0.0	0.0	0.0
+terribly	r	1.0	0.125	1.0	0.375	0.0625	0.1875
+that	IN/that	0.0	0.0	1.0	0.0	0.0	0.0
+that	WDT	1.0	0.0	0.0	0.0	0.0	0.0
+the	DT	33.0	0.0	27.0	0.0	0.0	0.0
+them	PP	1.0	0.0	0.0	0.0	0.0	0.0
+thin	a	0.0	0.0	1.0	0.141	0.0	0.141
+this	DT	3.0	0.0	2.0	0.0	0.0	0.0
+through	IN	1.0	0.0	0.0	0.0	0.0	0.0
+time	n	0.0	0.0	2.0	0.0	0.0	0.0
+timeless	a	1.0	0.125	0.0	0.0	0.125	0.0
+to	TO	4.0	0.0	7.0	0.0	0.0	0.0
+top	n	1.0	0.016	0.0	0.0	0.016	0.0
+touch	v	1.0	0.048	0.0	0.0	0.048	0.0
+tour	n	1.0	0.0	2.0	0.0	0.0	0.0
+tranquil	a	1.0	0.0	0.0	0.0	0.0	0.0
+transcend	v	1.0	0.0	0.0	0.0	0.0	0.0
+truly	r	1.0	0.375	1.0	0.0	0.1875	0.0
+understand	v	0.0	0.0	1.0	0.0	0.0	0.0
+unforgettable	a	1.0	0.125	0.0	0.0	0.125	0.0
+unfriendly	a	0.0	0.0	1.0	0.562	0.0	0.562
+unsatisfied	a	0.0	0.0	1.0	0.75	0.0	0.75
+unwelcoming	a	0.0	0.0	1.0	0.0	0.0	0.0
+upon	IN	1.0	0.0	0.0	0.0	0.0	0.0
+vegetation	n	0.0	0.0	1.0	0.031	0.0	0.031
+very	r	1.0	0.25	0.0	0.0	0.25	0.0
+view	n	4.0	0.014	0.0	0.0	0.014	0.0
+visit	n	1.0	0.0	1.0	0.0	0.0	0.0
+visit	v	1.0	0.031	1.0	0.109	0.0155	0.0545
+wait	v	0.0	0.0	1.0	0.188	0.0	0.188
+waiter	n	0.0	0.0	1.0	0.0	0.0	0.0
+walk	n	1.0	0.031	0.0	0.0	0.031	0.0
+wall	n	0.0	0.0	1.0	0.078	0.0	0.078
+warm	a	1.0	0.237	0.0	0.0	0.237	0.0
+water	n	2.0	0.031	2.0	0.0	0.0155	0.0
+we	PP	1.0	0.0	6.0	0.0	0.0	0.0
+welcome	v	2.0	0.0	0.0	0.0	0.0	0.0
+well	r	1.0	0.423	0.0	0.0	0.423	0.0
+well-preserved	a	1.0	0.75	0.0	0.0	0.75	0.0
+where	WRB	1.0	0.0	0.0	0.0	0.0	0.0
+which	WDT	1.0	0.0	2.0	0.0	0.0	0.0
+will	MD	1.0	0.0	0.0	0.0	0.0	0.0
+with	IN	4.0	0.0	5.0	0.0	0.0	0.0
+without	IN	0.0	0.0	1.0	0.0	0.0	0.0
+wonderful	a	1.0	0.0	0.0	0.0	0.0	0.0
+worth	a	1.0	0.125	0.0	0.0	0.125	0.0
+would	MD	1.0	0.0	1.0	0.0	0.0	0.0

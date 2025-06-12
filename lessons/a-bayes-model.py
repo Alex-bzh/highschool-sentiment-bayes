@@ -42,24 +42,19 @@ df_neg['probabilities'] = pneg
 
 df_vocab = pd.read_csv('data/vocabulary.txt', sep='\t')
 
-# Filter df_vocab on label == 'positive'
-df_vocab_pos = df_vocab[df_vocab['label'] == 'positive']
-df_vocab_neg = df_vocab[df_vocab['label'] == 'negative']
-
-# Merge on 'lemma' & 'tag' columns
 df_pos = df_pos.merge(
-  df_vocab_pos[['lemma', 'tag', 'weight']],
+  df_vocab[['lemma', 'tag', 'posWeight']],
   on=['lemma', 'tag'],
   how='left'
 )
 df_neg = df_neg.merge(
-  df_vocab_neg[['lemma', 'tag', 'weight']],
+  df_vocab[['lemma', 'tag', 'negWeight']],
   on=['lemma', 'tag'],
   how='left'
 )
 
-df_pos['p_weighted'] = df_pos['probabilities'] * df_pos['weight'].fillna(1)
-df_neg['p_weighted'] = df_neg['probabilities'] * df_neg['weight'].fillna(1)
+df_pos['p_weighted'] = df_pos['probabilities'] * df_pos['posWeight'].fillna(1)
+df_neg['p_weighted'] = df_neg['probabilities'] * df_neg['negWeight'].fillna(1)
 
 ##########
 # Step 3 #
