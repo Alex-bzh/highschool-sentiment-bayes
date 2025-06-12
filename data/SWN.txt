@@ -1,3 +1,4 @@
+tag	posScore	negScore	lemma
 a	0.125	0.375	quiet
 a	0.562	0.000	lovely
 a	0.188	0.344	stunning

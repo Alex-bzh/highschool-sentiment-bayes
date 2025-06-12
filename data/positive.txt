@@ -1,3 +1,4 @@
+frequencies	lemma	tag	posScore	negScore
 33	the	DT	0.000	0.000
 23	be	v	0.042	0.021
 22	.	SENT	0.000	0.000
