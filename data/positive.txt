@@ -1,182 +1,182 @@
-frequencies	lemma	tag	posScore	negScore
-33	the	DT	0.000	0.000
-23	be	v	0.042	0.021
-22	.	SENT	0.000	0.000
-19	,	,	0.000	0.000
-17	and	CC	0.000	0.000
-11	a	DT	0.000	0.000
-10	it	PP	0.000	0.000
-7	of	IN	0.000	0.000
-5	make	v	0.074	0.011
-5	for	IN	0.000	0.000
-4	with	IN	0.000	0.000
-4	view	n	0.014	0.153
-4	to	TO	0.000	0.000
-4	experience	n	0.000	0.000
-4	an	DT	0.000	0.000
-3	this	DT	0.000	0.000
-3	I	PP	0.000	0.000
-3	from	IN	0.000	0.000
-3	but	CC	0.000	0.000
-2	welcome	v	0.000	0.000
-2	water	n	0.031	0.000
-2	staff	n	0.000	0.000
-2	restaurant	n	0.000	0.000
-2	recommend	v	0.438	0.000
-2	perfect	a	0.688	0.062
-2	peaceful	a	0.250	0.000
-2	nature	n	0.100	0.000
-2	hike	n	0.000	0.000
-2	fascinating	a	0.500	0.000
-2	definitely	r	0.000	0.000
-2	breathtaking	a	0.250	0.250
-2	absolutely	r	0.500	0.000
-1	would	MD	0.000	0.000
-1	worth	a	0.125	0.000
-1	wonderful	a	0.000	0.000
-1	will	MD	0.000	0.000
-1	which	WDT	0.000	0.000
-1	where	WRB	0.000	0.000
-1	we	PP	0.000	0.000
-1	well	r	0.423	0.059
-1	well-preserved	a	0.750	0.000
-1	warm	a	0.237	0.200
-1	walk	n	0.031	0.000
-1	visit	v	0.031	0.109
-1	visit	n	0.000	0.000
-1	very	r	0.250	0.125
-1	upon	IN	0.000	0.000
-1	unforgettable	a	0.125	0.500
-1	truly	r	0.375	0.000
-1	transcend	v	0.000	0.000
-1	tranquil	a	0.000	0.000
-1	tour	n	0.000	0.000
-1	touch	v	0.048	0.067
-1	top	n	0.016	0.047
-1	timeless	a	0.125	0.000
-1	through	IN	0.000	0.000
-1	them	PP	0.000	0.000
-1	that	WDT	0.000	0.000
-1	terribly	r	0.125	0.375
-1	terrace	n	0.000	0.000
-1	surroundings	n	0.062	0.000
-1	sunset	n	0.000	0.000
-1	sun	n	0.042	0.000
-1	stunning	a	0.188	0.344
-1	story	n	0.000	0.000
-1	stay	n	0.000	0.000
-1	spot	n	0.050	0.037
-1	's	POS	0.000	0.000
-1	splendid	a	0.750	0.125
-1	sound	n	0.000	0.000
-1	soul	n	0.000	0.000
-1	so	r	0.000	0.000
-1	some	DT	0.000	0.000
-1	site	n	0.000	0.000
-1	simply	r	0.344	0.094
-1	sightseeing	n	0.000	0.000
-1	short	a	0.080	0.398
-1	set	v	0.062	0.006
-1	service	n	0.000	0.000
-1	!	SENT	0.000	0.000
-1	sense	n	0.250	0.000
-1	seem	v	0.156	0.031
-1	scenery	n	0.000	0.000
-1	room	n	0.125	0.000
-1	return	v	0.042	0.010
-1	relaxing	a	0.000	0.000
-1	reflect	v	0.281	0.000
-1	real	a	0.062	0.104
-1	profound	a	0.344	0.062
-1	prepare	v	0.000	0.000
-1	power	n	0.146	0.104
-1	poorly	r	0.000	0.750
-1	pleasure	n	0.200	0.000
-1	pleasant	a	0.688	0.062
-1	park	n	0.000	0.000
-1	panoramic	a	0.000	0.000
-1	organization	n	0.000	0.000
-1	on	IN	0.000	0.000
-1	offer	v	0.018	0.000
-1	nothing	r	0.000	0.000
-1	natural	a	0.167	0.250
-1	must-see	n	0.000	0.000
-1	museum	n	0.000	0.000
-1	mountain	n	0.000	0.000
-1	meticulously	r	0.375	0.000
-1	mesmerize	v	0.000	0.000
-1	mere	a	0.250	0.125
-1	masterpiece	n	0.375	0.000
-1	magical	a	0.000	0.000
-1	lover	n	0.125	0.083
-1	look	v	0.075	0.000
-1	lighting	n	0.000	0.031
-1	landscape	n	0.000	0.083
-1	lake	n	0.000	0.000
-1	label	v	0.000	0.000
-1	knowledgeable	a	0.500	0.000
-1	interesting	a	0.375	0.000
-1	insufficient	a	0.125	0.875
-1	in	IN	0.000	0.000
-1	impressive	a	0.125	0.000
-1	impeccable	a	0.062	0.625
-1	ideal	a	0.375	0.000
-1	hue	n	0.250	0.125
-1	hotel	n	0.000	0.000
-1	historical	a	0.031	0.031
-1	highly	r	0.500	0.000
-1	high	a	0.156	0.125
-1	here	r	0.000	0.000
-1	helpful	a	0.250	0.000
-1	have	v	0.000	0.143
-1	hand	n	0.037	0.013
-1	guide	n	0.000	0.000
-1	golden	a	0.219	0.094
-1	fully	r	0.375	0.000
-1	friendly	a	0.208	0.083
-1	fresh	a	0.175	0.300
-1	forest	n	0.000	0.000
-1	food	n	0.000	0.000
-1	exquisite	a	0.438	0.188
-1	exhibit	n	0.000	0.000
-1	exhausting	a	0.250	0.000
-1	evoke	v	0.000	0.000
-1	every	DT	0.000	0.000
-1	even	r	0.167	0.125
-1	escape	n	0.125	0.125
-1	engaging	a	0.000	0.000
-1	enchanting	a	0.000	0.000
-1	element	n	0.042	0.083
-1	during	IN	0.000	0.000
-1	divine	n	0.000	0.000
-1	dining	n	0.000	0.000
-1	dine	v	0.000	0.000
-1	difficult	a	0.000	0.000
-1	delightful	a	0.750	0.000
-1	delicious	a	0.000	0.000
-1	dance	v	0.000	0.000
-1	cuisine	n	0.000	0.000
-1	craft	v	0.000	0.000
-1	cozy	a	0.000	0.250
-1	comfortable	a	0.292	0.125
-1	color	n	0.000	0.000
-1	collection	n	0.000	0.000
-1	climb	n	0.000	0.000
-1	city	n	0.000	0.000
-1	chaotic	a	0.000	0.000
-1	chaos	n	0.000	0.083
-1	challenging	a	0.125	0.500
-1	by	IN	0.000	0.000
-1	bird	n	0.125	0.250
-1	below	r	0.000	0.000
-1	bed	n	0.000	0.000
-1	beauty	n	0.500	0.000
-1	beautiful	a	0.688	0.000
-1	awe	n	0.500	0.250
-1	attentive	a	0.250	0.000
-1	atmosphere	n	0.000	0.000
-1	at	IN	0.000	0.000
-1	artifact	n	0.000	0.000
-1	appreciate	v	0.125	0.125
-1	anyone	n	0.000	0.000
-1	air	n	0.000	0.000
+lemma	tag	posFreq	posScore
+the	DT	33	0.000
+be	v	23	0.042
+.	SENT	22	0.000
+,	,	19	0.000
+and	CC	17	0.000
+a	DT	11	0.000
+it	PP	10	0.000
+of	IN	7	0.000
+make	v	5	0.074
+for	IN	5	0.000
+with	IN	4	0.000
+view	n	4	0.014
+to	TO	4	0.000
+experience	n	4	0.000
+an	DT	4	0.000
+this	DT	3	0.000
+I	PP	3	0.000
+from	IN	3	0.000
+but	CC	3	0.000
+welcome	v	2	0.000
+water	n	2	0.031
+staff	n	2	0.000
+restaurant	n	2	0.000
+recommend	v	2	0.438
+perfect	a	2	0.688
+peaceful	a	2	0.250
+nature	n	2	0.100
+hike	n	2	0.000
+fascinating	a	2	0.500
+definitely	r	2	0.000
+breathtaking	a	2	0.250
+absolutely	r	2	0.500
+would	MD	1	0.000
+worth	a	1	0.125
+wonderful	a	1	0.000
+will	MD	1	0.000
+which	WDT	1	0.000
+where	WRB	1	0.000
+we	PP	1	0.000
+well	r	1	0.423
+well-preserved	a	1	0.750
+warm	a	1	0.237
+walk	n	1	0.031
+visit	v	1	0.031
+visit	n	1	0.000
+very	r	1	0.250
+upon	IN	1	0.000
+unforgettable	a	1	0.125
+truly	r	1	0.375
+transcend	v	1	0.000
+tranquil	a	1	0.000
+tour	n	1	0.000
+touch	v	1	0.048
+top	n	1	0.016
+timeless	a	1	0.125
+through	IN	1	0.000
+them	PP	1	0.000
+that	WDT	1	0.000
+terribly	r	1	0.125
+terrace	n	1	0.000
+surroundings	n	1	0.062
+sunset	n	1	0.000
+sun	n	1	0.042
+stunning	a	1	0.188
+story	n	1	0.000
+stay	n	1	0.000
+spot	n	1	0.050
+'s	POS	1	0.000
+splendid	a	1	0.750
+sound	n	1	0.000
+soul	n	1	0.000
+so	r	1	0.000
+some	DT	1	0.000
+site	n	1	0.000
+simply	r	1	0.344
+sightseeing	n	1	0.000
+short	a	1	0.080
+set	v	1	0.062
+service	n	1	0.000
+!	SENT	1	0.000
+sense	n	1	0.250
+seem	v	1	0.156
+scenery	n	1	0.000
+room	n	1	0.125
+return	v	1	0.042
+relaxing	a	1	0.000
+reflect	v	1	0.281
+real	a	1	0.062
+profound	a	1	0.344
+prepare	v	1	0.000
+power	n	1	0.146
+poorly	r	1	0.000
+pleasure	n	1	0.200
+pleasant	a	1	0.688
+park	n	1	0.000
+panoramic	a	1	0.000
+organization	n	1	0.000
+on	IN	1	0.000
+offer	v	1	0.018
+nothing	r	1	0.000
+natural	a	1	0.167
+must-see	n	1	0.000
+museum	n	1	0.000
+mountain	n	1	0.000
+meticulously	r	1	0.375
+mesmerize	v	1	0.000
+mere	a	1	0.250
+masterpiece	n	1	0.375
+magical	a	1	0.000
+lover	n	1	0.125
+look	v	1	0.075
+lighting	n	1	0.000
+landscape	n	1	0.000
+lake	n	1	0.000
+label	v	1	0.000
+knowledgeable	a	1	0.500
+interesting	a	1	0.375
+insufficient	a	1	0.125
+in	IN	1	0.000
+impressive	a	1	0.125
+impeccable	a	1	0.062
+ideal	a	1	0.375
+hue	n	1	0.250
+hotel	n	1	0.000
+historical	a	1	0.031
+highly	r	1	0.500
+high	a	1	0.156
+here	r	1	0.000
+helpful	a	1	0.250
+have	v	1	0.000
+hand	n	1	0.037
+guide	n	1	0.000
+golden	a	1	0.219
+fully	r	1	0.375
+friendly	a	1	0.208
+fresh	a	1	0.175
+forest	n	1	0.000
+food	n	1	0.000
+exquisite	a	1	0.438
+exhibit	n	1	0.000
+exhausting	a	1	0.250
+evoke	v	1	0.000
+every	DT	1	0.000
+even	r	1	0.167
+escape	n	1	0.125
+engaging	a	1	0.000
+enchanting	a	1	0.000
+element	n	1	0.042
+during	IN	1	0.000
+divine	n	1	0.000
+dining	n	1	0.000
+dine	v	1	0.000
+difficult	a	1	0.000
+delightful	a	1	0.750
+delicious	a	1	0.000
+dance	v	1	0.000
+cuisine	n	1	0.000
+craft	v	1	0.000
+cozy	a	1	0.000
+comfortable	a	1	0.292
+color	n	1	0.000
+collection	n	1	0.000
+climb	n	1	0.000
+city	n	1	0.000
+chaotic	a	1	0.000
+chaos	n	1	0.000
+challenging	a	1	0.125
+by	IN	1	0.000
+bird	n	1	0.125
+below	r	1	0.000
+bed	n	1	0.000
+beauty	n	1	0.500
+beautiful	a	1	0.688
+awe	n	1	0.500
+attentive	a	1	0.250
+atmosphere	n	1	0.000
+at	IN	1	0.000
+artifact	n	1	0.000
+appreciate	v	1	0.125
+anyone	n	1	0.000
+air	n	1	0.000

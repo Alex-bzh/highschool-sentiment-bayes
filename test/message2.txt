@@ -1,60 +1,60 @@
-frequencies	lemma	tag	posWeight	negWeight
-5	the	DT	0.0	0.0
-3	.	SENT	0.0	0.0
-3	be	v	0.0205531914893617	0.0107234042553191
-3	,	,	0.0	0.0
-2	to	TO	0.0	0.0
-2	their	PP$		
-2	make	v	0.04625	0.004125
-2	feel	v	0.0	0.056
-1	worth	a	0.125	0.0
-1	with	IN	0.0	0.0
-1	while	n		
-1	while	IN		
-1	well-preserved	a	0.75	0.0
-1	walk	v		
-1	visitor	n		
-1	through	IN	0.0	0.0
-1	though	r		
-1	this	DT	0.0	0.0
-1	that	WDT	0.0	0.0
-1	surprisingly	r		
-1	's	POS	0.0	0.0
-1	some	DT	0.0	0.0
-1	significance	n	0.0	0.125
-1	see	v		
-1	seem	v	0.078	0.0155
-1	quiet	a	0.0	0.375
-1	profound	a	0.344	0.0
-1	place	n	0.0	0.0
-1	overall	a	0.0	0.0
-1	or	CC		
-1	on	IN	0.0	0.0
-1	of	IN	0.0	0.0
-1	natural	a	0.167	0.0
-1	museum	n	0.0	0.0
-1	might	MD		
-1	mediocre	a	0.0	0.778
-1	lighting	n	0.0	0.0155
-1	interesting	a	0.375	0.0
-1	importance	n		
-1	ignore	v		
-1	historical	a	0.0155	0.0155
-1	hard	a	0.0	0.25
-1	hall	n		
-1	for	IN	0.0	0.0
-1	experience	n	0.0	0.0
-1	expectation	n		
-1	exhibit	n	0.0	0.0
-1	exhausting	a	0.25	0.0
-1	depend	v		
-1	cultural	a		
-1	comfortable	a	0.292	0.0
-1	collection	n	0.0	0.0
-1	clear	a	0.0	0.083
-1	challenge	v		
-1	architecture	n	0.0	0.0
-1	appreciate	v	0.125	0.0
-1	and	CC	0.0	0.0
-1	after	IN		
-1	a	DT	0.0	0.0
+freq	lemma	tag
+5	the	DT
+3	.	SENT
+3	be	v
+3	,	,
+2	to	TO
+2	their	PP$
+2	make	v
+2	feel	v
+1	worth	a
+1	with	IN
+1	while	n
+1	while	IN
+1	well-preserved	a
+1	walk	v
+1	visitor	n
+1	through	IN
+1	though	r
+1	this	DT
+1	that	WDT
+1	surprisingly	r
+1	's	POS
+1	some	DT
+1	significance	n
+1	see	v
+1	seem	v
+1	quiet	a
+1	profound	a
+1	place	n
+1	overall	a
+1	or	CC
+1	on	IN
+1	of	IN
+1	natural	a
+1	museum	n
+1	might	MD
+1	mediocre	a
+1	lighting	n
+1	interesting	a
+1	importance	n
+1	ignore	v
+1	historical	a
+1	hard	a
+1	hall	n
+1	for	IN
+1	experience	n
+1	expectation	n
+1	exhibit	n
+1	exhausting	a
+1	depend	v
+1	cultural	a
+1	comfortable	a
+1	collection	n
+1	clear	a
+1	challenge	v
+1	architecture	n
+1	appreciate	v
+1	and	CC
+1	after	IN
+1	a	DT

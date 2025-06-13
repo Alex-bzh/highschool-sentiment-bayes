@@ -1,158 +1,158 @@
-frequencies	lemma	tag	posScore	negScore
-27	the	DT	0.000	0.000
-24	be	v	0.042	0.021
-22	.	SENT	0.000	0.000
-20	,	,	0.000	0.000
-13	and	CC	0.000	0.000
-7	to	TO	0.000	0.000
-6	we	PP	0.000	0.000
-6	it	PP	0.000	0.000
-6	a	DT	0.000	0.000
-5	with	IN	0.000	0.000
-4	of	IN	0.000	0.000
-4	but	CC	0.000	0.000
-3	make	v	0.074	0.011
-3	hard	a	0.000	0.250
-3	experience	n	0.000	0.000
-2	which	WDT	0.000	0.000
-2	water	n	0.031	0.000
-2	tour	n	0.000	0.000
-2	time	n	0.125	0.000
-2	this	DT	0.000	0.000
-2	site	n	0.000	0.000
-2	service	n	0.000	0.000
-2	rush	v	0.000	0.050
-2	ruin	n	0.000	0.062
-2	room	n	0.125	0.000
-2	restaurant	n	0.000	0.000
-2	n't	r	0.000	0.000
-2	noisy	a	0.375	0.375
-2	leave	v	0.000	0.000
-2	its	PP$	0.000	0.000
-2	I	PP	0.000	0.000
-2	in	IN	0.000	0.000
-2	history	n	0.000	0.000
-2	guide	n	0.000	0.000
-2	from	IN	0.000	0.000
-2	food	n	0.000	0.000
-2	feel	v	0.083	0.056
-2	difficult	a	0.000	0.000
-2	bland	a	0.000	0.000
-2	beach	n	0.000	0.000
-2	about	IN	0.000	0.000
-1	would	MD	0.000	0.000
-1	without	IN	0.000	0.000
-1	wall	n	0.000	0.078
-1	wait	v	0.000	0.188
-1	waiter	n	0.000	0.000
-1	visit	v	0.031	0.109
-1	visit	n	0.000	0.000
-1	vegetation	n	0.000	0.031
-1	unwelcoming	a	0.000	0.000
-1	unsatisfied	a	0.062	0.750
-1	unfriendly	a	0.062	0.562
-1	understand	v	0.100	0.000
-1	truly	r	0.375	0.000
-1	thin	a	0.109	0.141
-1	that	IN/that	0.000	0.000
-1	terribly	r	0.125	0.375
-1	take	v	0.039	0.033
-1	summer	n	0.000	0.000
-1	stunning	a	0.188	0.344
-1	stay	v	0.014	0.042
-1	staff	n	0.000	0.000
-1	spot	n	0.050	0.037
-1	so	r	0.000	0.000
-1	soft	a	0.162	0.176
-1	slow	a	0.000	0.062
-1	sleep	v	0.000	0.000
-1	sign	n	0.062	0.031
-1	significance	n	0.250	0.125
-1	seem	v	0.156	0.031
-1	scatter	v	0.000	0.000
-1	sand	n	0.083	0.083
-1	recommend	v	0.438	0.000
-1	quiet	a	0.125	0.375
-1	preserve	v	0.000	0.250
-1	poor	a	0.000	0.375
-1	place	n	0.025	0.000
-1	pathway	n	0.000	0.125
-1	past	n	0.000	0.000
-1	paradise	n	0.375	0.125
-1	overpriced	a	0.125	0.000
-1	overgrow	v	0.000	0.000
-1	overall	a	0.000	0.000
-1	outdated	a	0.000	0.000
-1	our	PP$	0.000	0.000
-1	not	r	0.000	0.625
-1	neighboring	a	0.000	0.000
-1	neglect	v	0.042	0.125
-1	nearly	r	0.125	0.000
-1	museum	n	0.000	0.000
-1	much	r	0.125	0.000
-1	mediocre	a	0.222	0.778
-1	meal	n	0.000	0.000
-1	majestic	a	0.000	0.000
-1	lovely	a	0.562	0.000
-1	little	a	0.000	0.000
-1	litter	n	0.000	0.000
-1	lighting	n	0.000	0.031
-1	less	r	0.125	0.000
-1	learn	v	0.000	0.000
-1	lack	n	0.000	0.000
-1	know	v	0.141	0.031
-1	informative	a	0.125	0.000
-1	incredibly	r	0.250	0.000
-1	impressive	a	0.125	0.000
-1	impossible	a	0.000	0.750
-1	however	r	0.125	0.000
-1	hotel	n	0.000	0.000
-1	historical	a	0.031	0.031
-1	hear	v	0.000	0.000
-1	have	v	0.000	0.143
-1	golden	a	0.219	0.094
-1	frustrating	a	0.000	0.375
-1	for	IN	0.000	0.000
-1	find	v	0.021	0.021
-1	explore	v	0.042	0.000
-1	expect	v	0.125	0.083
-1	exhibit	n	0.000	0.000
-1	everything	n	0.000	0.000
-1	enjoy	v	0.500	0.000
-1	enjoyable	a	0.000	0.000
-1	do	v	0.000	0.000
-1	disappoint	v	0.000	0.000
-1	disappointment	n	0.000	0.000
-1	disappointingly	r	0.250	0.000
-1	disappointing	a	0.000	0.000
-1	crystal-clear	n	0.000	0.000
-1	crowd	v	0.000	0.000
-1	crowded	a	0.125	0.000
-1	could	MD	0.000	0.000
-1	complete	a	0.375	0.000
-1	comfortably	r	0.000	0.188
-1	clear	a	0.361	0.083
-1	city	n	0.000	0.000
-1	charming	a	0.875	0.000
-1	castle	n	0.000	0.000
-1	captivate	v	0.000	0.000
-1	can	MD	0.000	0.000
-1	by	IN	0.000	0.000
-1	break	v	0.039	0.035
-1	beautifully	r	0.375	0.000
-1	awfully	r	0.000	0.000
-1	away	r	0.000	0.018
-1	atrocious	a	0.000	0.000
-1	atmosphere	n	0.000	0.000
-1	at	IN	0.000	0.000
-1	as	r	0.000	0.000
-1	as	IN	0.000	0.000
-1	around	r	0.016	0.000
-1	architecture	n	0.000	0.000
-1	archaeological	a	0.000	0.000
-1	anyone	n	0.000	0.000
-1	an	DT	0.000	0.000
-1	amount	n	0.000	0.000
-1	admire	v	0.625	0.000
-1	access	n	0.000	0.000
-1	absurd	a	0.375	0.000
+lemma	tag	negFreq	negScore
+the	DT	27	0.000
+be	v	24	0.021
+.	SENT	22	0.000
+,	,	20	0.000
+and	CC	13	0.000
+to	TO	7	0.000
+we	PP	6	0.000
+it	PP	6	0.000
+a	DT	6	0.000
+with	IN	5	0.000
+of	IN	4	0.000
+but	CC	4	0.000
+make	v	3	0.011
+hard	a	3	0.250
+experience	n	3	0.000
+which	WDT	2	0.000
+water	n	2	0.000
+tour	n	2	0.000
+time	n	2	0.000
+this	DT	2	0.000
+site	n	2	0.000
+service	n	2	0.000
+rush	v	2	0.050
+ruin	n	2	0.062
+room	n	2	0.000
+restaurant	n	2	0.000
+n't	r	2	0.000
+noisy	a	2	0.375
+leave	v	2	0.000
+its	PP$	2	0.000
+I	PP	2	0.000
+in	IN	2	0.000
+history	n	2	0.000
+guide	n	2	0.000
+from	IN	2	0.000
+food	n	2	0.000
+feel	v	2	0.056
+difficult	a	2	0.000
+bland	a	2	0.000
+beach	n	2	0.000
+about	IN	2	0.000
+would	MD	1	0.000
+without	IN	1	0.000
+wall	n	1	0.078
+wait	v	1	0.188
+waiter	n	1	0.000
+visit	v	1	0.109
+visit	n	1	0.000
+vegetation	n	1	0.031
+unwelcoming	a	1	0.000
+unsatisfied	a	1	0.750
+unfriendly	a	1	0.562
+understand	v	1	0.000
+truly	r	1	0.000
+thin	a	1	0.141
+that	IN/that	1	0.000
+terribly	r	1	0.375
+take	v	1	0.033
+summer	n	1	0.000
+stunning	a	1	0.344
+stay	v	1	0.042
+staff	n	1	0.000
+spot	n	1	0.037
+so	r	1	0.000
+soft	a	1	0.176
+slow	a	1	0.062
+sleep	v	1	0.000
+sign	n	1	0.031
+significance	n	1	0.125
+seem	v	1	0.031
+scatter	v	1	0.000
+sand	n	1	0.083
+recommend	v	1	0.000
+quiet	a	1	0.375
+preserve	v	1	0.250
+poor	a	1	0.375
+place	n	1	0.000
+pathway	n	1	0.125
+past	n	1	0.000
+paradise	n	1	0.125
+overpriced	a	1	0.000
+overgrow	v	1	0.000
+overall	a	1	0.000
+outdated	a	1	0.000
+our	PP$	1	0.000
+not	r	1	0.625
+neighboring	a	1	0.000
+neglect	v	1	0.125
+nearly	r	1	0.000
+museum	n	1	0.000
+much	r	1	0.000
+mediocre	a	1	0.778
+meal	n	1	0.000
+majestic	a	1	0.000
+lovely	a	1	0.000
+little	a	1	0.000
+litter	n	1	0.000
+lighting	n	1	0.031
+less	r	1	0.000
+learn	v	1	0.000
+lack	n	1	0.000
+know	v	1	0.031
+informative	a	1	0.000
+incredibly	r	1	0.000
+impressive	a	1	0.000
+impossible	a	1	0.750
+however	r	1	0.000
+hotel	n	1	0.000
+historical	a	1	0.031
+hear	v	1	0.000
+have	v	1	0.143
+golden	a	1	0.094
+frustrating	a	1	0.375
+for	IN	1	0.000
+find	v	1	0.021
+explore	v	1	0.000
+expect	v	1	0.083
+exhibit	n	1	0.000
+everything	n	1	0.000
+enjoy	v	1	0.000
+enjoyable	a	1	0.000
+do	v	1	0.000
+disappoint	v	1	0.000
+disappointment	n	1	0.000
+disappointingly	r	1	0.000
+disappointing	a	1	0.000
+crystal-clear	n	1	0.000
+crowd	v	1	0.000
+crowded	a	1	0.000
+could	MD	1	0.000
+complete	a	1	0.000
+comfortably	r	1	0.188
+clear	a	1	0.083
+city	n	1	0.000
+charming	a	1	0.000
+castle	n	1	0.000
+captivate	v	1	0.000
+can	MD	1	0.000
+by	IN	1	0.000
+break	v	1	0.035
+beautifully	r	1	0.000
+awfully	r	1	0.000
+away	r	1	0.018
+atrocious	a	1	0.000
+atmosphere	n	1	0.000
+at	IN	1	0.000
+as	r	1	0.000
+as	IN	1	0.000
+around	r	1	0.000
+architecture	n	1	0.000
+archaeological	a	1	0.000
+anyone	n	1	0.000
+an	DT	1	0.000
+amount	n	1	0.000
+admire	v	1	0.000
+access	n	1	0.000
+absurd	a	1	0.000

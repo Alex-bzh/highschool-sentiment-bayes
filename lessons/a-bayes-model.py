@@ -8,53 +8,31 @@ import numpy as np
 # Step 1 #
 ##########
 
-# Define column names
-cols = ['frequencies', 'lemma', 'tag', 'posScore', 'negScore']
-
 # Load the file with tab separator
-df_pos = pd.read_csv('data/positive.txt', sep='\t', header=None, names=cols)
-df_neg = pd.read_csv('data/negative.txt', sep='\t', header=None, names=cols)
+df = pd.read_csv('../data/vocabulary.txt', sep='\t')
 
 # Calculate the sum of all values in the 'frequencies' column
-pos_sum = df_pos['frequencies'].sum()
-neg_sum = df_neg['frequencies'].sum()
+pos_sum = df['posFreq'].sum()
+neg_sum = df['negFreq'].sum()
 
-df = pd.concat([df_pos, df_neg], ignore_index=True)
-df = df.groupby(['lemma', 'tag'], as_index=False).agg({
-    'frequencies': 'sum',
-})
-
-V = df['frequencies'].sum()
+V = pos_sum + neg_sum
 
 # Define the probability function with a Laplacian smoothing
 def P(frequencies, F, V):
     return (frequencies + 1) / (F + V)
 
-ppos = df_pos['frequencies'].apply(lambda f: P(f, pos_sum, V))
-pneg = df_neg['frequencies'].apply(lambda f: P(f, neg_sum, V))
+ppos = df['posFreq'].apply(lambda f: P(f, pos_sum, V))
+pneg = df['negFreq'].apply(lambda f: P(f, neg_sum, V))
 
-df_pos['probabilities'] = ppos
-df_neg['probabilities'] = pneg
+df['posProb'] = ppos
+df['negProb'] = pneg
 
 ##########
 # Step 2 #
 ##########
 
-df_vocab = pd.read_csv('data/vocabulary.txt', sep='\t')
-
-df_pos = df_pos.merge(
-  df_vocab[['lemma', 'tag', 'posWeight']],
-  on=['lemma', 'tag'],
-  how='left'
-)
-df_neg = df_neg.merge(
-  df_vocab[['lemma', 'tag', 'negWeight']],
-  on=['lemma', 'tag'],
-  how='left'
-)
-
-df_pos['p_weighted'] = df_pos['probabilities'] * df_pos['posWeight'].fillna(1)
-df_neg['p_weighted'] = df_neg['probabilities'] * df_neg['negWeight'].fillna(1)
+df['posProb_w'] = df['posProb'] * df['posWeight']
+df['negProb_w'] = df['negProb'] * df['negWeight']
 
 ##########
 # Step 3 #
@@ -69,8 +47,8 @@ prior_pos = pos_sum / (pos_sum + neg_sum)
 prior_neg = neg_sum / (pos_sum + neg_sum)
 
 # consistent approach
-pos_weighted = (df_pos['frequencies'] * df_pos['weight']).sum()
-neg_weighted = (df_neg['frequencies'] * df_neg['weight']).sum()
+pos_weighted = (df['posFreq'] * df['posWeight']).sum()
+neg_weighted = (df['negFreq'] * df['negWeight']).sum()
 
 prior_pos = pos_weighted / (pos_weighted + neg_weighted)
 prior_neg = neg_weighted / (pos_weighted + neg_weighted)
@@ -79,37 +57,34 @@ prior_neg = neg_weighted / (pos_weighted + neg_weighted)
 # Step 4 #
 ##########
 
-df = pd.read_csv("test/message1.txt", sep="\t")
+# read message
+df_msg = pd.read_csv("../test/message1.txt", sep="\t")
 
-# smoothing
-pos_sum = df["posWeight"].sum()
-neg_sum = df["negWeight"].sum()
-df["posWeight"] /= pos_sum
-df["negWeight"] /= neg_sum
+df_msg = pd.merge(
+    df_msg,
+    df[['lemma', 'tag', 'posProb_w', 'negProb_w']],
+    on=['lemma', 'tag'],
+    how='left'
+)
 
-alpha = 0.1
+df_msg = df_msg.dropna(subset=['negProb_w', 'posProb_w'], how='all')
 
-df["posWeight"] = (df["posWeight"] + alpha) / (1 + alpha)
-df["negWeight"] = (df["negWeight"] + alpha) / (1 + alpha)
+alpha = 1e-6
 
-# Keep only rows with non-zero conditional probability
-df_pos = df[df["posWeight"] > 0.0].copy()
-df_neg = df[df["negWeight"] > 0.0].copy()
+df_msg['posProb_w'] = df_msg['posProb_w'] + alpha
+df_msg['negProb_w'] = df_msg['negProb_w'] + alpha
 
-# Keep only rows with non-zero conditional probability
-df_pos = df[df["p_pos"] > 0.0].copy()
-df_neg = df[df["p_neg"] > 0.0].copy()
+log_pos_prob = np.log(df_msg["posProb_w"])
+log_neg_prob = np.log(df_msg["negProb_w"])
 
-df_pos["log_p_pos"] = np.log(df_pos["p_pos"])
-df_neg["log_p_neg"] = np.log(df_neg["p_neg"])
-df_pos["w_log_p_pos"] = df_pos["frequencies"] * df_pos["log_p_pos"]
-df_neg["w_log_p_neg"] = df_neg["frequencies"] * df_neg["log_p_neg"]
+log_likelihood_pos = df_msg["freq"] * log_pos_prob
+log_likelihood_neg = df_msg["freq"] * log_neg_prob
 
-log_likelihood_pos = df_pos["w_log_p_pos"].sum()
-log_likelihood_neg = df_neg["w_log_p_neg"].sum()
+sum_log_likelihood_pos = log_likelihood_pos.sum()
+sum_log_likelihood_neg = log_likelihood_neg.sum()
 
-score_pos = np.log(prior_pos) + log_likelihood_pos
-score_neg = np.log(prior_neg) + log_likelihood_neg
+score_pos = np.log(prior_pos) + sum_log_likelihood_pos
+score_neg = np.log(prior_neg) + sum_log_likelihood_neg
 
 # log-MAP scores
 print(f"POS : {score_pos}, NEG : {score_neg}")

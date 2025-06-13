@@ -1,57 +1,57 @@
-frequencies	lemma	tag	posWeight	negWeight
-5	the	DT	0.0	0.0
-3	.	SENT	0.0	0.0
-3	of	IN	0.0	0.0
-2	history	n	0.0	0.0
-2	and	CC	0.0	0.0
-2	a	DT	0.0	0.0
-1	would	MD	0.0	0.0
-1	with	IN	0.0	0.0
-1	wall	n	0.0	0.078
-1	view	n	0.014	0.0
-1	unforgettable	a	0.125	0.0
-1	truly	r	0.1875	0.0
-1	tour	n	0.0	0.0
-1	to	TO	0.0	0.0
-1	top	n	0.016	0.0
-1	this	DT	0.0	0.0
-1	that	IN/that	0.0	0.0
-1	surroundings	n	0.062	0.0
-1	such	PDT		
-1	storytelling	n		
-1	stand	v		
-1	splendid	a	0.75	0.0
-1	sense	n	0.25	0.0
-1	reflect	v	0.281	0.0
-1	recommend	v	0.292	0.0
-1	profound	a	0.344	0.0
-1	preserve	v	0.0	0.25
-1	our	PP$	0.0	0.0
-1	on	IN	0.0	0.0
-1	natural	a	0.167	0.0
-1	medieval	a		
-1	make	v	0.04625	0.004125
-1	lover	n	0.125	0.0
-1	landscape	n	0.0	0.0
-1	knowledgeable	a	0.5	0.0
-1	I	PP	0.0	0.0
-1	highly	r	0.5	0.0
-1	her	PP$		
-1	helpful	a	0.25	0.0
-1	guide	n	0.0	0.0
-1	from	IN	0.0	0.0
-1	fascinating	a	0.5	0.0
-1	exquisite	a	0.438	0.0
-1	explanation	n		
-1	experience	n	0.0	0.0
-1	create	v		
-1	charming	a	0.0	0.0
-1	century	n		
-1	castle	n	0.0	0.0
-1	breathtaking	a	0.25	0.0
-1	beautifully	r	0.0	0.0
-1	awe	n	0.5	0.0
-1	architecture	n	0.0	0.0
-1	any	DT		
-1	about	IN	0.0	0.0
-1	,	,	0.0	0.0
+freq	lemma	tag
+5	the	DT
+3	.	SENT
+3	of	IN
+2	history	n
+2	and	CC
+2	a	DT
+1	would	MD
+1	with	IN
+1	wall	n
+1	view	n
+1	unforgettable	a
+1	truly	r
+1	tour	n
+1	to	TO
+1	top	n
+1	this	DT
+1	that	IN/that
+1	surroundings	n
+1	such	PDT
+1	storytelling	n
+1	stand	v
+1	splendid	a
+1	sense	n
+1	reflect	v
+1	recommend	v
+1	profound	a
+1	preserve	v
+1	our	PP$
+1	on	IN
+1	natural	a
+1	medieval	a
+1	make	v
+1	lover	n
+1	landscape	n
+1	knowledgeable	a
+1	I	PP
+1	highly	r
+1	her	PP$
+1	helpful	a
+1	guide	n
+1	from	IN
+1	fascinating	a
+1	exquisite	a
+1	explanation	n
+1	experience	n
+1	create	v
+1	charming	a
+1	century	n
+1	castle	n
+1	breathtaking	a
+1	beautifully	r
+1	awe	n
+1	architecture	n
+1	any	DT
+1	about	IN
+1	,	,
