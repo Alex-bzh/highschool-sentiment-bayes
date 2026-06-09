@@ -1,95 +1,83 @@
 #!/usr/bin/env python
 # coding: utf-8
 
+import argparse
 import pandas as pd
 import numpy as np
+
+# Parse command-line arguments
+parser = argparse.ArgumentParser()
+parser.add_argument("pathfile", help="Path to the message file")
+args = parser.parse_args()
 
 ##########
 # Step 1 #
 ##########
 
 # Load the file with tab separator
-df = pd.read_csv('../data/vocabulary.txt', sep='\t')
+df = pd.read_csv("./data/vocabulary.txt", sep="\t")
 
 # Calculate the sum of all values in the 'frequencies' column
-pos_sum = df['posFreq'].sum()
-neg_sum = df['negFreq'].sum()
+pos_sum = df["posFreq"].sum()
+neg_sum = df["negFreq"].sum()
 
+# Vocabulary length
 V = pos_sum + neg_sum
 
 # Define the probability function with a Laplacian smoothing
 def P(frequencies, F, V):
     return (frequencies + 1) / (F + V)
 
-ppos = df['posFreq'].apply(lambda f: P(f, pos_sum, V))
-pneg = df['negFreq'].apply(lambda f: P(f, neg_sum, V))
+# Apply 'P' function to the values in the 'posFreq' column …
+ppos = df["posFreq"].apply(lambda f: P(f, pos_sum, V))
+pneg = df["negFreq"].apply(lambda f: P(f, neg_sum, V))
 
-df['posProb'] = ppos
-df['negProb'] = pneg
+# … and add them to the data frame
+df["posProb"] = ppos
+df["negProb"] = pneg
 
 ##########
 # Step 2 #
 ##########
 
-df['posProb_w'] = df['posProb'] * df['posWeight']
-df['negProb_w'] = df['negProb'] * df['negWeight']
+# Calculate prior with the frequentist approach
+prior_pos = pos_sum / V
+prior_neg = neg_sum / V
 
 ##########
 # Step 3 #
 ##########
 
-# naive approach
-prior_pos = 0.5
-prior_neg = 0.5
+# Load message file provided via CLI
+df_msg = pd.read_csv(args.pathfile, sep="\t")
 
-# frequentist approach
-prior_pos = pos_sum / (pos_sum + neg_sum)
-prior_neg = neg_sum / (pos_sum + neg_sum)
-
-# consistent approach
-pos_weighted = (df['posFreq'] * df['posWeight']).sum()
-neg_weighted = (df['negFreq'] * df['negWeight']).sum()
-
-prior_pos = pos_weighted / (pos_weighted + neg_weighted)
-prior_neg = neg_weighted / (pos_weighted + neg_weighted)
-
-##########
-# Step 4 #
-##########
-
-# read message
-df_msg = pd.read_csv("../test/message1.txt", sep="\t")
-
+# Add the probabilities learned from the corpus
 df_msg = pd.merge(
     df_msg,
-    df[['lemma', 'tag', 'posProb_w', 'negProb_w']],
-    on=['lemma', 'tag'],
-    how='left'
+    df[["lemma", "tag", "posProb", "negProb"]],
+    on=["lemma", "tag"],
+    how="left"
 )
 
-df_msg = df_msg.dropna(subset=['negProb_w', 'posProb_w'], how='all')
+# Drop useless information
+df_msg = df_msg.dropna(subset=["negProb", "posProb"], how="all")
 
-alpha = 1e-6
+# Convert into log-probabilities
+log_pos_prob = np.log(df_msg["posProb"])
+log_neg_prob = np.log(df_msg["negProb"])
 
-df_msg['posProb_w'] = df_msg['posProb_w'] + alpha
-df_msg['negProb_w'] = df_msg['negProb_w'] + alpha
-
-log_pos_prob = np.log(df_msg["posProb_w"])
-log_neg_prob = np.log(df_msg["negProb_w"])
-
+# Calculate the log-likelihood
 log_likelihood_pos = df_msg["freq"] * log_pos_prob
 log_likelihood_neg = df_msg["freq"] * log_neg_prob
 
-sum_log_likelihood_pos = log_likelihood_pos.sum()
-sum_log_likelihood_neg = log_likelihood_neg.sum()
-
-score_pos = np.log(prior_pos) + sum_log_likelihood_pos
-score_neg = np.log(prior_neg) + sum_log_likelihood_neg
+# Add log-prior to the log-likelihood to obtain a score
+score_pos = np.log(prior_pos) + log_likelihood_pos.sum()
+score_neg = np.log(prior_neg) + log_likelihood_neg.sum()
 
 # log-MAP scores
 print(f"POS : {score_pos}, NEG : {score_neg}")
 
-# probs
+# Convert log-MAP score into probabilities
 scores = np.array([score_pos, score_neg])
 probs = np.exp(scores - np.max(scores))
 probs /= probs.sum()

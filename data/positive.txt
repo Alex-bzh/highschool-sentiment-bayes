@@ -1,182 +1,182 @@
-lemma	tag	posFreq	posScore
-the	DT	33	0.000
-be	v	23	0.042
-.	SENT	22	0.000
-,	,	19	0.000
-and	CC	17	0.000
-a	DT	11	0.000
-it	PP	10	0.000
-of	IN	7	0.000
-make	v	5	0.074
-for	IN	5	0.000
-with	IN	4	0.000
-view	n	4	0.014
-to	TO	4	0.000
-experience	n	4	0.000
-an	DT	4	0.000
-this	DT	3	0.000
-I	PP	3	0.000
-from	IN	3	0.000
-but	CC	3	0.000
-welcome	v	2	0.000
-water	n	2	0.031
-staff	n	2	0.000
-restaurant	n	2	0.000
-recommend	v	2	0.438
-perfect	a	2	0.688
-peaceful	a	2	0.250
-nature	n	2	0.100
-hike	n	2	0.000
-fascinating	a	2	0.500
-definitely	r	2	0.000
-breathtaking	a	2	0.250
-absolutely	r	2	0.500
-would	MD	1	0.000
-worth	a	1	0.125
-wonderful	a	1	0.000
-will	MD	1	0.000
-which	WDT	1	0.000
-where	WRB	1	0.000
-we	PP	1	0.000
-well	r	1	0.423
-well-preserved	a	1	0.750
-warm	a	1	0.237
-walk	n	1	0.031
-visit	v	1	0.031
-visit	n	1	0.000
-very	r	1	0.250
-upon	IN	1	0.000
-unforgettable	a	1	0.125
-truly	r	1	0.375
-transcend	v	1	0.000
-tranquil	a	1	0.000
-tour	n	1	0.000
-touch	v	1	0.048
-top	n	1	0.016
-timeless	a	1	0.125
-through	IN	1	0.000
-them	PP	1	0.000
-that	WDT	1	0.000
-terribly	r	1	0.125
-terrace	n	1	0.000
-surroundings	n	1	0.062
-sunset	n	1	0.000
-sun	n	1	0.042
-stunning	a	1	0.188
-story	n	1	0.000
-stay	n	1	0.000
-spot	n	1	0.050
-'s	POS	1	0.000
-splendid	a	1	0.750
-sound	n	1	0.000
-soul	n	1	0.000
-so	r	1	0.000
-some	DT	1	0.000
-site	n	1	0.000
-simply	r	1	0.344
-sightseeing	n	1	0.000
-short	a	1	0.080
-set	v	1	0.062
-service	n	1	0.000
-!	SENT	1	0.000
-sense	n	1	0.250
-seem	v	1	0.156
-scenery	n	1	0.000
-room	n	1	0.125
-return	v	1	0.042
-relaxing	a	1	0.000
-reflect	v	1	0.281
-real	a	1	0.062
-profound	a	1	0.344
-prepare	v	1	0.000
-power	n	1	0.146
-poorly	r	1	0.000
-pleasure	n	1	0.200
-pleasant	a	1	0.688
-park	n	1	0.000
-panoramic	a	1	0.000
-organization	n	1	0.000
-on	IN	1	0.000
-offer	v	1	0.018
-nothing	r	1	0.000
-natural	a	1	0.167
-must-see	n	1	0.000
-museum	n	1	0.000
-mountain	n	1	0.000
-meticulously	r	1	0.375
-mesmerize	v	1	0.000
-mere	a	1	0.250
-masterpiece	n	1	0.375
-magical	a	1	0.000
-lover	n	1	0.125
-look	v	1	0.075
-lighting	n	1	0.000
-landscape	n	1	0.000
-lake	n	1	0.000
-label	v	1	0.000
-knowledgeable	a	1	0.500
-interesting	a	1	0.375
-insufficient	a	1	0.125
-in	IN	1	0.000
-impressive	a	1	0.125
-impeccable	a	1	0.062
-ideal	a	1	0.375
-hue	n	1	0.250
-hotel	n	1	0.000
-historical	a	1	0.031
-highly	r	1	0.500
-high	a	1	0.156
-here	r	1	0.000
-helpful	a	1	0.250
-have	v	1	0.000
-hand	n	1	0.037
-guide	n	1	0.000
-golden	a	1	0.219
-fully	r	1	0.375
-friendly	a	1	0.208
-fresh	a	1	0.175
-forest	n	1	0.000
-food	n	1	0.000
-exquisite	a	1	0.438
-exhibit	n	1	0.000
-exhausting	a	1	0.250
-evoke	v	1	0.000
-every	DT	1	0.000
-even	r	1	0.167
-escape	n	1	0.125
-engaging	a	1	0.000
-enchanting	a	1	0.000
-element	n	1	0.042
-during	IN	1	0.000
-divine	n	1	0.000
-dining	n	1	0.000
-dine	v	1	0.000
-difficult	a	1	0.000
-delightful	a	1	0.750
-delicious	a	1	0.000
-dance	v	1	0.000
-cuisine	n	1	0.000
-craft	v	1	0.000
-cozy	a	1	0.000
-comfortable	a	1	0.292
-color	n	1	0.000
-collection	n	1	0.000
-climb	n	1	0.000
-city	n	1	0.000
-chaotic	a	1	0.000
-chaos	n	1	0.000
-challenging	a	1	0.125
-by	IN	1	0.000
-bird	n	1	0.125
-below	r	1	0.000
-bed	n	1	0.000
-beauty	n	1	0.500
-beautiful	a	1	0.688
-awe	n	1	0.500
-attentive	a	1	0.250
-atmosphere	n	1	0.000
-at	IN	1	0.000
-artifact	n	1	0.000
-appreciate	v	1	0.125
-anyone	n	1	0.000
-air	n	1	0.000
+lemma	tag	freq
+the	DT	33
+be	v	23
+.	SENT	22
+,	,	19
+and	CC	17
+a	DT	11
+it	PP	10
+of	IN	7
+make	v	5
+for	IN	5
+with	IN	4
+view	n	4
+to	TO	4
+experience	n	4
+an	DT	4
+this	DT	3
+I	PP	3
+from	IN	3
+but	CC	3
+welcome	v	2
+water	n	2
+staff	n	2
+restaurant	n	2
+recommend	v	2
+perfect	a	2
+peaceful	a	2
+nature	n	2
+hike	n	2
+fascinating	a	2
+definitely	r	2
+breathtaking	a	2
+absolutely	r	2
+would	MD	1
+worth	a	1
+wonderful	a	1
+will	MD	1
+which	WDT	1
+where	WRB	1
+we	PP	1
+well	r	1
+well-preserved	a	1
+warm	a	1
+walk	n	1
+visit	v	1
+visit	n	1
+very	r	1
+upon	IN	1
+unforgettable	a	1
+truly	r	1
+transcend	v	1
+tranquil	a	1
+tour	n	1
+touch	v	1
+top	n	1
+timeless	a	1
+through	IN	1
+them	PP	1
+that	WDT	1
+terribly	r	1
+terrace	n	1
+surroundings	n	1
+sunset	n	1
+sun	n	1
+stunning	a	1
+story	n	1
+stay	n	1
+spot	n	1
+'s	POS	1
+splendid	a	1
+sound	n	1
+soul	n	1
+so	r	1
+some	DT	1
+site	n	1
+simply	r	1
+sightseeing	n	1
+short	a	1
+set	v	1
+service	n	1
+!	SENT	1
+sense	n	1
+seem	v	1
+scenery	n	1
+room	n	1
+return	v	1
+relaxing	a	1
+reflect	v	1
+real	a	1
+profound	a	1
+prepare	v	1
+power	n	1
+poorly	r	1
+pleasure	n	1
+pleasant	a	1
+park	n	1
+panoramic	a	1
+organization	n	1
+on	IN	1
+offer	v	1
+nothing	r	1
+natural	a	1
+must-see	n	1
+museum	n	1
+mountain	n	1
+meticulously	r	1
+mesmerize	v	1
+mere	a	1
+masterpiece	n	1
+magical	a	1
+lover	n	1
+look	v	1
+lighting	n	1
+landscape	n	1
+lake	n	1
+label	v	1
+knowledgeable	a	1
+interesting	a	1
+insufficient	a	1
+in	IN	1
+impressive	a	1
+impeccable	a	1
+ideal	a	1
+hue	n	1
+hotel	n	1
+historical	a	1
+highly	r	1
+high	a	1
+here	r	1
+helpful	a	1
+have	v	1
+hand	n	1
+guide	n	1
+golden	a	1
+fully	r	1
+friendly	a	1
+fresh	a	1
+forest	n	1
+food	n	1
+exquisite	a	1
+exhibit	n	1
+exhausting	a	1
+evoke	v	1
+every	DT	1
+even	r	1
+escape	n	1
+engaging	a	1
+enchanting	a	1
+element	n	1
+during	IN	1
+divine	n	1
+dining	n	1
+dine	v	1
+difficult	a	1
+delightful	a	1
+delicious	a	1
+dance	v	1
+cuisine	n	1
+craft	v	1
+cozy	a	1
+comfortable	a	1
+color	n	1
+collection	n	1
+climb	n	1
+city	n	1
+chaotic	a	1
+chaos	n	1
+challenging	a	1
+by	IN	1
+bird	n	1
+below	r	1
+bed	n	1
+beauty	n	1
+beautiful	a	1
+awe	n	1
+attentive	a	1
+atmosphere	n	1
+at	IN	1
+artifact	n	1
+appreciate	v	1
+anyone	n	1
+air	n	1
