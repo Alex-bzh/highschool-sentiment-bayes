@@ -41,8 +41,8 @@ df["negProb"] = pneg
 ##########
 
 # Calculate prior with the frequentist approach
-prior_pos = pos_sum / V
-prior_neg = neg_sum / V
+prior_pos = pos_sum / (pos_sum + neg_sum)
+prior_neg = neg_sum / (pos_sum + neg_sum)
 
 ##########
 # Step 3 #
