@@ -22,7 +22,7 @@ pos_sum = df["posFreq"].sum()
 neg_sum = df["negFreq"].sum()
 
 # Vocabulary length
-V = pos_sum + neg_sum
+V = len(df)
 
 # Define the probability function with a Laplacian smoothing
 def P(frequencies, F, V):
