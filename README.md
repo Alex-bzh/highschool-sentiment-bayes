@@ -10,19 +10,25 @@ How to automatically determine the polarity of a message by applying Bayes' theo
 
 2. Get a clone of this repository:
 
-```
-$ git clone https://github.com/Alex-bzh/highschool-sentiment-bayes.git
-$ cd highschool-sentiment-bayes
+```sh
+git clone https://github.com/Alex-bzh/highschool-sentiment-bayes.git
+cd highschool-sentiment-bayes
 ```
 
 3. Install the dependencies:
 
-```
-$ pixi install
+```sh
+pixi install
 ```
 
 4. Invoke a new shell based on the environment:
 
+```sh
+pixi shell
 ```
-$ pixi shell
+
+A more straightforward approach is to launch JupyterLab:
+
+```sh
+pixi run start
 ```
